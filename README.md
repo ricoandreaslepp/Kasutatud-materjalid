@@ -7,3 +7,5 @@ NB! Ükski koodides kasutatud algoritm pole selle *repository* autori (ehk uurim
 Igas kaustas on ka uurimistöö autori kirjutatud fail nimega salvestaja.py, mis on vajalik, et koostad Excel tabelid, mis on leitavad Google Drive'is lingilt https://drive.google.com/drive/folders/1xSqe3DxKPV_5Ne3c2HxW-fL5KJhifQLy?usp=sharing. 
 
 Kaust sis_tekst on kõikide algoritmide sisendtekstide jaoks, sh algkorpused ja vigased tekstid.
+
+Kogu _repository_ on mõeldud ühe suure kaustana, et saaks kõiki programme testida eraldi. Kui üksikult neid alla laadida, siis ei pruugi kõik _directory_ vahetused toimida nii, nagu need peaksid.
