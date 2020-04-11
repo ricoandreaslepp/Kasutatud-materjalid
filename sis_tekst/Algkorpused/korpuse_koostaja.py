@@ -3,9 +3,13 @@ import re
 from time import time
 from bs4 import BeautifulSoup
 
+# kõik kaustad, milles olevaid .tei faile soovite ühendada tekstifailiks, formaat "./kausta nimi"
 folders = ["./tasakaalus_ilukirjandus_lausestatud", "./tasakaalus_teadus_lausestatud"]
-
-korpus = open("tasakaalus_ilu_teadus.txt", "w", encoding="utf-8")
+# -----------------------
+# koostatava korpuse nimi, formaat "nimi.txt"
+korpuse_nimi = "nimi.txt"
+# -----------------------
+korpus = open(korpuse_nimi, "w", encoding="utf-8")
 total_words = 0
 for fold in folders:
     
@@ -28,4 +32,6 @@ for fold in folders:
     korpus.write(total_str)
 
 korpus.close()
+# mitu sõna saadi tekstifaili
 print(total_words)
+# --------------------------
