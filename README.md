@@ -1,6 +1,6 @@
 # Uurimistöö praktilise osa eesmärgi saavutamiseks kirjutatud koodid
 
-NB! Ükski koodides kasutatud algoritm pole selle repository autori välja mõeldud, tehtud on vajalikud muudatused ja lisad, et nendega oleks võimalik parandada suuremaid koguseid tekste .txt failides. Kõik vajalikud viited algoritmide autoritele on tehtud uurimistöö kirjalikus osas.
+NB! Ükski koodides kasutatud algoritm pole selle *repository* autori (ehk uurimistöö autori) välja mõeldud, tehtud on vajalikud muudatused ja lisad, et nendega oleks võimalik parandada suuremaid koguseid tekste .txt failides. Kõik vajalikud viited algoritmide autoritele on tehtud uurimistöö kirjalikus osas.
 
 *Repository*s on neli kausta erinevate algoritmide kohta, kus igas on *nimi*_tabelisse.py fail, mida kasutati, et parandada vigaseid sõnu. Algoritmide jaoks vajalikud teegid peab kasutaja vajadusel ise oma seadmesse alla laadima. 
 
