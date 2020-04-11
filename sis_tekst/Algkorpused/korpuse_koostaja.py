@@ -1,6 +1,5 @@
 import os
 import re
-from time import time
 from bs4 import BeautifulSoup
 
 # kõik kaustad, milles olevaid .tei faile soovite ühendada tekstifailiks, formaat "./kausta nimi"
