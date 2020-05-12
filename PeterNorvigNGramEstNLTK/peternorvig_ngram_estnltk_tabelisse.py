@@ -15,10 +15,6 @@ def study():
 
 
 def words(text):
-    return re.findall(r'\w+', text)
-
-
-def words(text):
     return re.findall(r'\w+', text.lower())
 
 
