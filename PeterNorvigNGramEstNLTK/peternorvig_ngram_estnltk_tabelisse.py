@@ -9,10 +9,8 @@ probability_dict = {}
 
 
 def study():
-
     # algkorpuse fail
-    study_text = "tasakaalus_ilu_teadus.txt"
-
+    from failid import study_text
     return Counter(words(open(study_text, encoding="utf-8").read()))
 
 
@@ -117,6 +115,7 @@ def solve(sheet):
     return i
 
 os.chdir("../sis_tekst/Algkorpused")
+init_ngram_probability()
 WORDS = study()
 os.chdir("../../")
 
